@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    position: fixed;
+    top: 40px;
+    background: transparent;
+    color: white;
+    width: 160px;
+    height: 80px;
+    font-size: 24px;
+    border: 1px solid white;
+    animation: button-animation 5s infinite;
+}
+
+.btn1 {
+    right: 30px;
+}
+
+.btn2 {
+    left: 30px;
+}
+
+h1 {
+    position: fixed;
+    top: 50%;
+    left: 120px;
+    color: white;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: monospace;
+    animation: h1 3s infinite;
+}
+
+.bubble {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: -150px;
+    width: 100%;
+    animation: bubble1 3s infinite linear;
+}
+
+.image {
+    width: 70px;
+}
+
+@keyframes button-animation {
+    0% {
+        border-radius: 5px;
+    }
+    50% {
+        border-radius: 25px;
+        padding: 30px;
+        width: 200px;
+    }
+    100% {
+        border-radius: 5px;
+    }
+}
+
+@keyframes h1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    60% {
+        transform: translate(0, 30px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes bubble1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, -900px);
+        opacity: 0;
+    }
+}
+
+.img1 {
+    width: 20px;
+    height: 20px;
+    animation: bubble1 1.9s infinite linear;
+}
+
+.img2 {
+    width: 40px;
+    height: 40px;
+    animation: bubble1 3.4s infinite linear;
+}
+
+.img3 {
+    width: 100px;
+    height: 100px;
+    animation: bubble1 4s infinite linear;
+}
+
+.img4 {
+    width: 60px;
+    height: 60px;
+    animation: bubble1 2s infinite linear;
+}
+
+.img5 {
+    width: 150px;
+    height: 130px;
+    animation: bubble1 6s infinite linear;
+}
+
+.img6 {
+    width: 20px;
+    height: 20px;
+    animation: bubble1 1.9s infinite linear;
+}
+
+.img7 {
+    width: 40px;
+    height: 40px;
+    animation: bubble1 4s infinite linear;
+}
+
+.img8 {
+    width: 10px;
+    height: 10px;
+    animation: bubble1 1.9s infinite linear;
+}
+
+.img9 {
+    width: 200px;
+    height: 200px;
+    animation: bubble1 7s infinite linear;
+}
+
+.img10 {
+    width: 150px;
+    height: 150px;
+    animation: bubble1 5s infinite linear;
+}
+
+.img11 {
+    width: 70px;
+    height: 70px;
+    animation: bubble1 9s infinite linear;
+}
